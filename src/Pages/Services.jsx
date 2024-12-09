@@ -4,7 +4,7 @@ const Services = () => {
   return (
     <div className='services' id='services'>
         <h2>Our Services</h2>
-        <p>Explore our wide range of camping gear services.</p>
+        <p className='p'>Explore our wide range of camping gear services.</p>
         <ul className='cards'>
             <li className='card'>
                 <img src="src/assets/tents.jpg" alt="img" />
@@ -40,6 +40,7 @@ const Services = () => {
                 <img src="src/assets/light.jpg" alt="img" />
                 <h3>Camp Lights</h3>
                 <p>Illuminate your campsite with our reliable and energy-efficient camping lights.</p>
+                
             </li>
         </ul>
     </div>

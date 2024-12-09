@@ -4,7 +4,7 @@ const Portfolio = () => {
   return (
     <div className='portfolio' id='portfolio'>
         <h2>Our Portfolio</h2>
-        <p>Take a look at some of our memorable camping adventures.</p>
+        <p className='p'>Take a look at some of our memorable camping adventures.</p>
         <ul className='cards'>
             <li className='card'>
                 <img src="src/assets/camping-1.jpg" alt="img" />
@@ -34,6 +34,12 @@ const Portfolio = () => {
                 <img src="src/assets/camping-5.jpg" alt="img" />
                 <h3>RV Camping</h3>
                 <p>Experience the freedom of road trips and camping adventures with our RV rentals.</p>
+            </li>
+
+            <li className='card'>
+                <img src="src/assets/camping-6.jpg" alt="img" />
+                <h3>Desert Camping</h3>
+                <p>Embark on a unique desert camping experience and witness stunning landscapes.</p>
             </li>
         </ul>
     </div>

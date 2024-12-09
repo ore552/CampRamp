@@ -7,7 +7,7 @@ const Hero = () => {
             <div className='content'>
                 <div className='text'>
                     <h1>Camping Gear and Essentials</h1>
-                    <p>Discover top-quality camping gear for unforgettable outdoor adventures. <br /> Gear up and make lasting memories.</p>
+                    <p className='p'>Discover top-quality camping gear for unforgettable outdoor adventures. <br /> Gear up and make lasting memories for family and for friends.</p>
                 </div>
                 <a href="#services">Our Services</a>
             </div>
