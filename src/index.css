@@ -315,3 +315,63 @@ footer span{
 footer a{
   padding: 0;
 }
+
+
+@media screen and (max-width: 860px) {
+  .navbar .all-links {
+    position: fixed;
+    left: -100%;
+    width: 300px;
+    display: block;
+    height: 100vh;
+    top: 75px;
+    background: #333;
+    transition: left 0.3s ease;
+  }
+  .navbar #menu-toggler:checked~.all-links {
+    left: 0;
+  }
+  .navbar .all-links li {
+    font-size: 18px;
+  }
+  .navbar #hamburger-btn {
+    display: block;
+  }
+  section > p {
+    text-align: center;
+  }
+  section .cards .card {
+    width: calc(100% / 2 - 15px);
+    margin-bottom: 30px;
+  }
+  .homepage .content h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .homepage .content .text {
+    font-size: 17px;
+  }
+  .content a {
+    font-size: 17px;
+    padding: 9px 20px;
+  }
+  .contact .row {
+    flex-direction: column;
+  }
+  .contact .row .col {
+    width: 100%;
+  }
+  .contact .row .col:last-child {
+    margin-top: 40px;
+  }
+  footer a {
+    height: 0;
+  }
+}
+@media screen and (max-width: 560px) {
+  section .cards .card {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
