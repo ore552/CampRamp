@@ -1,20 +1,21 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
     <div>
         <header>
             <nav className='navbar'>
-                <h2 className='logo'><a href="#">LOGO</a></h2>
+                <Link to={'/'} className='logo'><h2 className='logo'>CampRamp</h2></Link>
                 <input type="checkbox" id='menu-toggler'/>
                 <label htmlFor="menu-toggler" id='hamburger-btn'></label>
                 <ul className='all-links'>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#contact">Contact Us</a></li>
+                    <Link to={'/'}><li>Home</li></Link>
+                    <Link to={'/services'}><li>Services</li></Link>
+                    <Link to={'/portfolio'}><li>Portfolio</li></Link>
+                    <Link to={'/blog'}><li>Blog</li></Link>
+                    <Link to={'/about'}><li>About Us</li></Link>
+                    <Link to={'/contact'}><li>Contact Us</li></Link>
                 </ul>
             </nav>
         </header>

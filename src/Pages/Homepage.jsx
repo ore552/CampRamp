@@ -9,10 +9,6 @@ const Homepage = () => {
   return (
     <div>
         <Hero/>
-        <Services/>
-        <Portfolio/>
-        <About/>
-        <Contact/>
     </div>
   )
 }
