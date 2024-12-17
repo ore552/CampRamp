@@ -8,6 +8,7 @@ import Services from './Pages/Services'
 import Portfolio from './Pages/Portfolio'
 import Contact from './Pages/Contact'
 import Blog from './Pages/Blog'
+import Journal from './Pages/Journal'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       <Route path='/portfolio' element={<Portfolio/>}/>
       <Route path='/contact' element={<Contact/>}/>
       <Route path='/blog' element={<Blog/>}/>
+      <Route path='/journal' element={<Journal/>}/>
     </Routes>
     <Footer/>
     </>
